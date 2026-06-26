@@ -3,6 +3,7 @@ kind: Deployment
 
 metadata:
   name: ai-backend
+  namespace: ai-platform
 
 spec:
   replicas: 2

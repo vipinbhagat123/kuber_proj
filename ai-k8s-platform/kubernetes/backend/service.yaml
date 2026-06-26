@@ -3,6 +3,7 @@ kind: Service
 
 metadata:
   name: ai-backend-service
+  namespace: ai-platform
 
 spec:
   selector:
